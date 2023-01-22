@@ -52,7 +52,7 @@ namespace MoviesApp
                 app.UseRequestLog();
                 app.UseDeveloperExceptionPage();
             }
-
+         
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
