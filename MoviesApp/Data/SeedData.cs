@@ -74,14 +74,14 @@ namespace MoviesApp.Data
                       {
                           Firstname = "Lionel",
                           Lastname = "Messi",
-                          Birthdate = DateTime.Yesterday
+                          Birthdate = DateTime.Today
                       },
 
                       new Actor
                       {
-                          Firstname = "Vasya",
-                          Lastname = "Pupkin",
-                          Birthdate = DateTime.Yesterday
+                          Firstname = "Emil",
+                          Lastname = "Musk",
+                          Birthdate = new DateTime(2003, 1, 22)
                       },
 
                       new Actor

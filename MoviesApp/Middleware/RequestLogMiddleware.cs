@@ -22,7 +22,7 @@ namespace MoviesApp.Middleware
             finally
             {
                 if (httpContext.Request.Path.Value.Contains("Actors"))
-                    logger.LogTrace($"Request - [{httpContext.Request.Path}] Method - [{httpContext.Request.Method}] URL - [{httpContext.Request.GetDisplayUrl()}] Date - [{DateTime.Now}]  Accept - [{httpContext.Request.Headers.Accept;}]");
+                    logger.LogTrace($"Request - [{httpContext.Request.Path}] Method - [{httpContext.Request.Method}]");
             }
         }
     }
